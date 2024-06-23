@@ -1,0 +1,37 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "CurioMaravillasIntent",
+          "samples": [
+            "tell me curiosities about wonders of the world",
+            "tell me a fact about wonders of the world",
+            "tell me about the wonders of the world",
+            "Tell me a curious fact about the wonders of the world",
+            "tell me about the wonders of the world"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosities of wonders"
+    }
+  }
+}
